@@ -8,7 +8,7 @@ A brief solution of how to solve this challenge which was given in ISTE and MIST
 An image was provided with the challenge.
 
 
-![HCCB](https://file.notion.so/f/f/07ddc1d2-0a10-4826-b971-c4945010857a/9453190d-c351-4a83-964f-10fac3b1c5b8/nice_pic.png?id=14241058-f3ec-42cf-83ed-15923dfb57c2&table=block&spaceId=07ddc1d2-0a10-4826-b971-c4945010857a&expirationTimestamp=1707523200000&signature=OiK69SOhTUvVGyvlOWm6Vss3oDeOhjd3pmbTYw_xqIE&downloadName=nice_pic.png)
+![HCCB](https://raw.githubusercontent.com/ManipalInformationSecurityTeam/AuroraCTF-24/main/Tell%20Me%20Baby/HCCB.png)
 
 This image is a **High Capacity Color Barcode**, proprietary technology made by Microsoft back in 2007(?). 
 
@@ -16,7 +16,7 @@ More information regarding the barcode can be found [here](https://www.microsoft
 
 From the same webpage, we can go to the patents section of the inventor where we can find one of his projects which goes by [System and method for encoding high density geometric symbol set](https://patents.google.com/patent/US7936901B2). The patent page generally talks about how geometric shapes and colours can be used to represent data. This page also consists of images among which there is a particular image that you might want to focus on.
 
-![encoding](https://patentimages.storage.googleapis.com/4b/41/e7/4c3bbb3bb44777/US07936901-20110503-D00006.png)
+![encoding](https://github.com/ManipalInformationSecurityTeam/AuroraCTF-24/blob/main/Tell%20Me%20Baby/Patent.png?raw=true)
 
 In figure 12, you can see that a colour represents 3 bites, and 2.66 of colours represent a byte. The bits sequence are colour coded with respect to their RGB values. 
 
